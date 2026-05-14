@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO Enterprises | Project Timeline</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* small visual tweaks */
+        .timeline-line { background: linear-gradient(to bottom, rgba(99,102,241,0.9), rgba(249,115,22,0.9)); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+<!-- NAVBAR -->
+  <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center leading-none">
+                    <a href="index.html" aria-label="CO Enterprises home" class="flex items-center gap-3">
+                        <img src="CO_Logo.png" 
+                            alt="CO Enterprises logo" 
+                            class="w-24 h-24 object-contain rounded"
+                            loading="lazy">
+                    </a>
+                </div>
+                  
+                  <nav class="hidden md:flex space-x-10 items-center font-semibold text-sm uppercase tracking-wider">
+                      <a href="index.html" class="text-blue-900 hover:text-orange-600 transition">Home</a>
+                      <!-- <a href="about.html" class="text-blue-900 hover:text-orange-600 transition">Company</a> -->
+                      <a href="carlos.html" class="text-blue-900 hover:text-orange-600 transition">About</a>
+                      <!-- <a href="#services" class="text-blue-900 hover:text-orange-600 transition">Services</a> -->
+                      <a href="my_projects.html" class="text-blue-900 hover:text-orange-600 transition">Portfolio</a>
+                      <a href="contacts.html" class="bg-blue-900 text-white px-6 py-3 rounded-sm hover:bg-orange-600 transition shadow-lg shadow-blue-900/20">Inquire Now</a>
+                  </nav>
+
+                  <button id="mobile-menu-btn" class="md:hidden text-blue-900 text-2xl">
+                      <i class="fas fa-bars"></i>
+                  </button>
+              </div>
+          </div>
+          
+          <!-- Mobile Menu -->
+          <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 py-6 space-y-4">
+              <a href="index.html" class="block font-bold text-blue-900">Home</a>
+              <a href="carlos.html" class="block font-bold text-blue-900">About</a>
+              <a href="my_projects.html" class="block font-bold text-blue-900">Portfolio</a>
+          </div>
+
+   </header>
+  <!-- NAVBAR END -->
+
+
+    <main class="max-w-6xl mx-auto px-4 pt-10 pb-6">
+        <div class="text-center mb-12 mt-20">
+            <h1 class="text-4xl font-extrabold text-blue-900">Project History</h1>
+            <!-- <p class="text-slate-600 mt-2">Major Projects (Newest to Oldest) — timeline and notable completed works</p> -->
+        </div>
+
+        <!-- Gallery -->
+        <section class="mb-12">
+            <h2 class="text-orange-600 font-bold uppercase tracking-widest text-sm mb-4">Project Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border border-slate-200 overflow-hidden">
+                    <img src="projects/creane.jpg" alt="Project 1" class="w-full h-full object-cover"> 
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border border-slate-200 overflow-hidden">
+                    <img src="projects/ff.jpg" alt="Project 2" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border border-slate-200 overflow-hidden">
+                    <img src="projects/Fine-Builders - Brochure Image.png" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+                
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/Fine-Builders - Brochure Image 2.jpg" alt="Project 4" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/guam.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/hhh.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/hvac.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/marine.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/piping.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/popy.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/power.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/shore.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/usa-guam.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/zzz.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+            </div>
+
+                <div class="col-span-full flex justify-center mt-6">
+                    <a href="my_projects.html" class="bg-blue-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="col-span-2">
+                <div class="space-y-8">
+                    <!-- Major Projects list -->
+                    <div>
+                        <h2 class="text-orange-600 font-bold uppercase tracking-widest text-sm mb-4">Major Projects</h2>
+                        <div class="space-y-6">
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">American Bakery: Perimeter Fence</h3>
+                                        <p class="text-sm text-slate-500">Status: Ongoing</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Hoya’s Residence: Two story house</h3>
+                                        <p class="text-sm text-slate-500">Status: Ongoing</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Game Box: Entertainment Game Center</h3>
+                                        <p class="text-sm text-slate-500">2025</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Detry: Building main access road</h3>
+                                        <p class="text-sm text-slate-500">2025</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">American Bakery: Warehouse roof renovation</h3>
+                                        <p class="text-sm text-slate-500">2025</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Matcha Tokyo: Coffee/Tea Shop fit-out</h3>
+                                        <p class="text-sm text-slate-500">2025</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Tamuning Warehouse: Renovation</h3>
+                                        <p class="text-sm text-slate-500">2025</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Bread Bar: Japanese Bakery</h3>
+                                        <p class="text-sm text-slate-500">2023–2024</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Play Works: Kids entertainment</h3>
+                                        <p class="text-sm text-slate-500">2023–2024</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Macys Store: Ceiling renovation</h3>
+                                        <p class="text-sm text-slate-500">2023</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Micronesia Mall: Roof catwalk</h3>
+                                        <p class="text-sm text-slate-500">2023</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">The Tsubaki Tower Hotel: Building Energy Management System</h3>
+                                        <p class="text-sm text-slate-500">2018–2021</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Micronesian Brokers, Inc.: Fleet Maintenance Services</h3>
+                                        <p class="text-sm text-slate-500">2019–2022 — recurring</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Triple J Enterprises: Warehouse Roof Replacement</h3>
+                                        <p class="text-sm text-slate-500">2020</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">U.S. Renal Care Dialysis Center: HVAC Installation</h3>
+                                        <p class="text-sm text-slate-500">2020</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Guam Power Authority (GPA): Energy Storage System</h3>
+                                        <p class="text-sm text-slate-500">2018–2020</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Cabras Marine Warehouse: Transformer Renovation</h3>
+                                        <p class="text-sm text-slate-500">2016–2020</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Andersen AFB: Airfield Signage & Electrical Wiring</h3>
+                                        <p class="text-sm text-slate-500">2017–2018</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">LeoPalace Resort: Building Energy Management System</h3>
+                                        <p class="text-sm text-slate-500">2016–2017</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Fiesta Resort Guam: Transformer Repair & Breaker Replacement</h3>
+                                        <p class="text-sm text-slate-500">2017</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Lotte Duty Free – Gucci Store: Renovation & HVAC</h3>
+                                        <p class="text-sm text-slate-500">2015</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">AT&T Control Plant: New Chillers & AHU Units</h3>
+                                        <p class="text-sm text-slate-500">2015</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Onward Beach Resort: Electrical & Mechanical Upgrades</h3>
+                                        <p class="text-sm text-slate-500">2014</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">The Westin Resort Guam: Sky Lounge Renovation</h3>
+                                        <p class="text-sm text-slate-500">2013</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Andersen AFB: Commissary Fire Alarm System & Main Power Line Upgrade</h3>
+                                        <p class="text-sm text-slate-500">2010–2011</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">GHURA: Government House Renovation</h3>
+                                        <p class="text-sm text-slate-500">2009</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Residential Project – Yigo: New Home Construction (18,000 sq. ft.)</h3>
+                                        <p class="text-sm text-slate-500">2009</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Residential Project – Chalan Pago: Renovation & Extension</h3>
+                                        <p class="text-sm text-slate-500">2009</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Guam International Airport: Runway Works & Fire Alarm Installation</h3>
+                                        <p class="text-sm text-slate-500">2007–2008</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="p-6 bg-white rounded-lg shadow border">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-900">Naval Base Guam – NEX: Chiller Power Line Installation</h3>
+                                        <p class="text-sm text-slate-500">2000–2001</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right column: Additional Completed Projects summary -->
+            <aside>
+                <div class="p-4 bg-white rounded-lg shadow border">
+                    <h4 class="text-lg font-bold text-blue-900 mb-4">Additional Completed Projects</h4>
+                    <ul class="text-sm text-slate-600 space-y-3">
+                        <li>Replacement of 1000 KVA Transformer – Bldg. 2117</li>
+                        <li>Replacement of 1000 KVA Transformer – Bldg. 25005</li>
+                        <li>Replacement of 1500 KVA Transformer – Bldg. 10 Det 2 NCS</li>
+                        <li>Carrier Warehouse Buildings 1–6 Renovation Upgrade</li>
+                        <li>Today’s Realty Apartment Renovation – Barrigada</li>
+                        <li>Las Palmas Unit 94 Renovation</li>
+                        <li>CTSI Workshop Garage Extension</li>
+                        <li>Residential House Extension – Santa Rita</li>
+                        <li>CTSI Shipping Company – Roof Crack Repair & Coating</li>
+                        <li>ADA Trust Company – Property Fencing, Merizo</li>
+                        <li>San Vitores Condo Unit A-24 Renovation</li>
+                        <li>Las Palmas Units 96 & 97 Renovations</li>
+                        <li>Fokai Store Renovation</li>
+                        <li>Nimitz Hill Residential Roof Repair</li>
+                        <li>Guam Bakery – New Kitchen Installation</li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Footer -->
+   <footer id="contact" class="bg-blue-950 text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+                <div class="lg:col-span-1">
+                    <img src="CO_LOGO_White.png" alt="CO Enterprises logo" class="h-28 w-auto" loading="lazy">
+                    <p class="mt-3 text-slate-400 text-sm leading-relaxed">
+                        Leading general contractor specializing in commercial, industrial, and residential sectors. Built on 30 years of professional industry leadership.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="text-lg font-bold mb-6 border-b border-white/10 pb-2">Quick Links</h5>
+                    <ul class="text-slate-400 text-sm space-y-3">
+                        <li><a href="carlos.html" class="hover:text-white">Our Company</a></li>
+                        <li><a href="/index.html#services" class="hover:text-white">Services</a></li>
+                        <li><a href="/my_projects.html" class="hover:text-white">Project History</a></li>
+                        <li><a href="/contacts.html" class="hover:text-white">Request a Quote</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-bold mb-6 border-b border-white/10 pb-2">Inquiries</h5>
+                    <p class="text-slate-400 text-sm mb-4">Contact us for project consultations and bidding opportunities.</p>
+
+                    <ul class="text-slate-400 text-sm space-y-3">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-envelope text-orange-500"></i>
+                            <a href="mailto:coenterprises.gu@gmail.com" class="text-orange-500 font-bold hover:underline">coenterprises.gu@gmail.com</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone text-orange-500"></i>
+                            <a href="tel:671 922 8508" class="hover:underline">671 922 8508</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-mobile text-orange-500"></i>
+                            <a href="tel:671 898 6682" class="hover:underline">671 898 6682</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-map-marker-alt text-orange-500"></i>
+                            <span>133 Pick A Nail Rd., Tamuning, 96913 Guam</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-[10px] uppercase tracking-widest">
+                <p>&copy; 2026 CO Enterprises. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <!-- <a href="#" class="hover:text-white">Privacy Policy</a> -->
+                    <!-- <a href="#" class="hover:text-white">Terms of Service</a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

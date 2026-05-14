@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>CO Enterprises | Contact</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+	<!-- NAVBAR -->
+	<header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="flex justify-between h-20 items-center">
+				<div class="flex items-center leading-none">
+					<a href="index.html" aria-label="CO Enterprises home" class="flex items-center gap-3">
+						<img src="CO_Logo.png" alt="CO Enterprises logo" class="w-24 h-24 object-contain rounded" loading="lazy">
+					</a>
+				</div>
+
+				<nav class="hidden md:flex space-x-10 items-center font-semibold text-sm uppercase tracking-wider">
+					<a href="index.html" class="text-blue-900 hover:text-orange-600 transition">Home</a>
+					<a href="carlos.html" class="text-blue-900 hover:text-orange-600 transition">About</a>
+					<a href="my_projects.html" class="text-blue-900 hover:text-orange-600 transition">Portfolio</a>
+					<a href="contacts.html" class="bg-blue-900 text-white px-6 py-3 rounded-sm hover:bg-orange-600 transition shadow-lg shadow-blue-900/20">Contact</a>
+				</nav>
+
+				<button id="mobile-menu-btn" class="md:hidden text-blue-900 text-2xl">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+		</div>
+
+		<!-- Mobile Menu -->
+		<div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 py-6 space-y-4">
+			<a href="index.html" class="block font-bold text-blue-900">Home</a>
+			<a href="carlos.html" class="block font-bold text-blue-900">About</a>
+			<a href="my_projects.html" class="block font-bold text-blue-900">Portfolio</a>
+			<a href="contacts.html" class="block font-bold text-blue-900">Contact</a>
+		</div>
+	</header>
+	<!-- NAVBAR END -->
+
+	<main class="pt-28 max-w-5xl mx-auto px-4 pb-16">
+		<section class="bg-white rounded-lg border shadow p-6 md:p-10">
+			<div class="mb-8">
+				<h1 class="text-3xl md:text-4xl font-extrabold text-blue-900">Contact CO Enterprises</h1>
+				<p class="mt-2 text-slate-600">State your concern and complete the details below. Your message will be sent by email.</p>
+			</div>
+
+			<form action="mailto:coenterprises.gu@gmail.com" method="post" enctype="text/plain" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+				<div class="md:col-span-2">
+					<label for="concern" class="block text-sm font-semibold text-blue-900 mb-2">Concern</label>
+					<select id="concern" name="Concern" class="w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+						<option value="Project inquiry">Project inquiry</option>
+						<option value="Consultation">Consultation</option>
+						<option value="Partnership">Partnership</option>
+						<option value="General question">General question</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="name" class="block text-sm font-semibold text-blue-900 mb-2">Name</label>
+					<input id="name" name="Name" type="text" required class="w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+				</div>
+
+				<div>
+					<label for="contact" class="block text-sm font-semibold text-blue-900 mb-2">Contact Number</label>
+					<input id="contact" name="Contact Number" type="tel" required class="w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+				</div>
+
+				<div class="md:col-span-2">
+					<label for="email" class="block text-sm font-semibold text-blue-900 mb-2">Email</label>
+					<input id="email" name="Email" type="email" required class="w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+				</div>
+
+				<div class="md:col-span-2">
+					<label for="header" class="block text-sm font-semibold text-blue-900 mb-2">Header</label>
+					<input id="header" name="Header" type="text" required class="w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Subject line">
+				</div>
+
+				<div class="md:col-span-2">
+					<label for="description" class="block text-sm font-semibold text-blue-900 mb-2">Description</label>
+					<textarea id="description" name="Description" rows="5" required class="w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Share your project details or request"></textarea>
+				</div>
+
+				<div class="md:col-span-2 flex items-center justify-end">
+					<button type="submit" class="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold hover:bg-orange-600 transition">Send Email</button>
+				</div>
+			</form>
+		</section>
+
+		<section class="mt-10 bg-white rounded-lg border shadow p-6 md:p-10">
+			<div class="mb-8">
+				<h2 class="text-2xl md:text-3xl font-extrabold text-blue-900">Contact Us</h2>
+				<p class="mt-2 text-slate-600">Visit our office or reach out through the details below.</p>
+			</div>
+
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+				<div class="space-y-4">
+					<div class="rounded-md overflow-hidden border">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.7152860327606!2d144.7862165!3d13.491633600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x671f82a095fae0e9%3A0xb37b21b569190b6b!2s133%20Pick%20A%20Nail%20Rd%2C%20Tamuning%2C%2096913%2C%20Guam!5e0!3m2!1sen!2sph!4v1778727410439!5m2!1sen!2sph"
+							width="100%"
+							height="360"
+							style="border:0;"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
+					</div>
+					<p class="text-sm text-slate-500">133 Pick A Nail Rd, Tamuning, 96913, Guam</p>
+				</div>
+
+				<div class="space-y-6">
+					<div>
+						<h3 class="text-lg font-bold text-blue-900">Office Details</h3>
+						<p class="mt-2 text-slate-600">Business Hours: Mon to Sat, 9:00 AM - 6:00 PM</p>
+						<p class="text-slate-600">Email: coenterprises.gu@gmail.com</p>
+						<p class="text-slate-600">Phone: +1 (671) 555-0199</p>
+					</div>
+
+					<div class="rounded-md border border-orange-200 bg-orange-50 p-4">
+						<h4 class="text-sm font-bold text-orange-700 uppercase tracking-wide">Need a quick response?</h4>
+						<p class="mt-2 text-sm text-orange-700">For urgent requests, include your preferred contact time in the form and we will get back to you within 24 hours.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		// simple mobile menu toggle
+		document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+			document.getElementById('mobile-menu')?.classList.toggle('hidden');
+		});
+	</script>
+</body>
+</html>

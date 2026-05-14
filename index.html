@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO Enterprises | General Contracting & Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 font-sans text-slate-900 scroll-smooth">
+
+    <!-- Header & Navigation -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center leading-none">
+                    <a href="index.html" aria-label="CO Enterprises home" class="flex items-center gap-3">
+                        <img src="CO_Logo.png" 
+     alt="CO Enterprises logo" 
+     class="w-24 h-24 object-contain rounded"
+     loading="lazy">
+                    </a>
+                </div>
+                
+                <nav class="hidden md:flex space-x-10 items-center font-semibold text-sm uppercase tracking-wider">
+                    <a href="#home" class="text-blue-900 hover:text-orange-600 transition">Home</a>
+                    <!-- <a href="about.html" class="text-blue-900 hover:text-orange-600 transition">Company</a> -->
+                    <a href="carlos.html" class="text-blue-900 hover:text-orange-600 transition">About</a>
+                    <!-- <a href="#services" class="text-blue-900 hover:text-orange-600 transition">Services</a> -->
+                    <a href="#projects" class="text-blue-900 hover:text-orange-600 transition">Portfolio</a>
+                    <a href="contacts.html" class="bg-blue-900 text-white px-6 py-3 rounded-sm hover:bg-orange-600 transition shadow-lg shadow-blue-900/20">Inquire Now</a>
+                </nav>
+
+                <button id="mobile-menu-btn" class="md:hidden text-blue-900 text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 py-6 space-y-4">
+            <a href="#home" class="block font-bold text-blue-900">Home</a>
+            <a href="about.html" class="block font-bold text-blue-900">Company</a>
+            <a href="carlos.html" class="block font-bold text-blue-900">About</a>
+            <!-- <a href="#services" class="block font-bold text-blue-900">Services</a> -->
+            <a href="#projects" class="block font-bold text-blue-900">Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=2070" class="w-full h-full object-cover" alt="Construction Site">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-950/90 to-blue-900/40"></div>
+        </div>
+
+        <div class=" relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+            <div class="max-w-3xl">
+                <div class="inline-block px-4 py-1 border border-orange-500 text-orange-500 font-bold text-xs uppercase tracking-widest mb-6">
+                    Established January 2026
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                    Precision Built. <br><span class="text-orange-500">Excellence Delivered.</span>
+                </h1>
+                <p class="text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
+                    Our success is driven by experience, dedication, and professional management.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="my_projects.html" class="bg-orange-600 hover:bg-orange-700 text-white px-10 py-4 rounded-sm font-bold text-center transition uppercase tracking-widest shadow-xl shadow-orange-600/30">View Works</a>
+                    <!-- <a href="#services" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-sm font-bold text-center transition uppercase tracking-widest">Our Expertise</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="about-short" class="py-20 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+    
+    <!-- Background Accent -->
+    <div class="absolute top-0 right-0 w-72 h-72 bg-orange-100 rounded-full blur-3xl opacity-30"></div>
+    <div class="absolute bottom-0 left-0 w-72 h-72 bg-blue-100 rounded-full blur-3xl opacity-30"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- Left Content -->
+            <div>
+                <span class="text-orange-500 font-bold uppercase tracking-widest text-sm mb-4">
+                    About The Company
+                </span>
+
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-9">
+                    CO Enterprises: <br>    
+                    <span class="text-orange-500">General Contracting Specialists</span>
+                </h2>
+
+                <p class="text-slate-600 text-lg leading-relaxed mb-12">
+                    We deliver commercial, industrial, and residential construction services with a strong
+                    commitment to safety, precision, and long-term quality. From planning and procurement 
+                    to execution and turnover, our team ensures every project is completed efficiently and 
+                    professionally.
+                </p>
+
+                <!-- Buttons -->
+                <div class="flex flex-wrap gap-4">
+                    <a href="carlos.html"
+                       class="inline-flex items-center px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-xl shadow-lg transition duration-300">
+                        View More Info
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="bg-white shadow-xl border border-slate-100 p-8">
+            <!-- 
+                <div class="mb-6">
+                    <h3 class="text-sm uppercase tracking-[0.25em] text-slate-400 font-bold mb-3">
+                        Trusted Partners
+                    </h3>
+
+                    <div class="flex flex-wrap items-center gap-8">
+
+                        <div class="group">
+                            <img src="/fb.png"
+                                 alt="Fine Builders Inc."
+                                 class="h-14 object-contain grayscale hover:grayscale-0 transition duration-300">
+                        </div>
+
+                        <div class="group">
+                            <img src="/rnvc.png"
+                                 alt="RNV Construction"
+                                 class="h-14 object-contain grayscale hover:grayscale-0 transition duration-300">
+                        </div>
+
+                    </div>
+                </div> -->
+
+                <div class="flex items-center justify-center py-6">
+                    <img src="CO_Logo.png" alt="CO Enterprises logo" class="w-full h-full object-contain" loading="lazy">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+    
+    <!-- <section>
+                CEO Spotlight
+                <div class="p-20">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center text-white text-2xl font-bold">CO</div>
+                        <div>
+                            h4 class="text-xl font-bold text-blue-900">Carlos Ongpauco</h4>
+                            <p class="text-orange-600 font-bold text-sm uppercase tracking-tighter">President / CEO</p>
+                            </div>
+                        </div>
+                        <p class="text-slate-600 italic">"Mr. Carlos Ongpauco has over 30 years of experience in the construction industry. His 
+                            expertise includes roles as Project Manager, Licensed Master Electrician, Chief Engineer, 
+                            and Construction Consultant. He is responsible for overseeing all operations, including 
+                            manpower coordination, resource management, and overall project execution."</p>
+                    </div>
+    </section> -->
+
+    <!-- Services -->
+    <section id="services" class="py-24 bg-blue-950 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-20">
+                <h2 class="text-orange-500 font-bold uppercase tracking-widest text-sm mb-4">Our Services</h2>
+                <h3 class="text-4xl md:text-5xl font-bold">Comprehensive Construction Solutions</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition">
+                    <i class="fas fa-hammer text-3xl text-orange-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">General Contracting</h4>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li>New Construction</li>
+                        <li>Industrial Facilities</li>
+                        <li>Commercial Complexes</li>
+                        <li>Residential Estates</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition">
+                    <i class="fas fa-tools text-3xl text-orange-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Renovation</h4>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li>Structural Retrofitting</li>
+                        <li>Interior Deep Remodels</li>
+                        <li>Warehouse Roof Upgrades</li>
+                        <li>Facade Modernization</li>
+                    </ul>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition">
+                    <i class="fas fa-bolt text-3xl text-orange-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Electrical Systems</h4>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li>Master Electrician Oversight</li>
+                        <li>Power Distribution</li>
+                        <li>Industrial Wiring</li>
+                        <li>Energy Efficiency Audits</li>
+                    </ul>
+                </div>
+                <!-- Service 4 -->
+                <div class="p-8 border border-white/10 bg-white/5 hover:bg-white/10 transition">
+                    <i class="fas fa-fan text-3xl text-orange-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Mechanical/HVAC</h4>
+                    <ul class="text-slate-400 text-sm space-y-2">
+                        <li>System Design & Install</li>
+                        <li>Preventative Maintenance</li>
+                        <li>Industrial Ventilation</li>
+                        <li>Climate Control Solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Dedicated Company Stats -->
+    <section id="company-stats" class="bg-slate-50 py-20 relative overflow-hidden">
+        <div class="absolute -top-16 -right-16 h-56 w-56 rounded-full bg-orange-300/50 blur-3xl"></div>
+        <div class="absolute -bottom-16 -left-16 h-56 w-56 rounded-full bg-blue-300/50 blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-10">
+                <p class="text-orange-500 font-bold uppercase tracking-widest text-xs mb-2">Company Highlights</p>
+                <h3 class="text-3xl md:text-4xl font-black text-blue-900">Built on Experience and Delivery</h3>
+                <!-- <p class="text-slate-500 text-sm mt-3">Key milestones that reflect our on-site performance and scale.</p> -->
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="bg-white/90 backdrop-blur p-8 text-center shadow-xl border border-slate-100">
+                    <div class="mx-auto mb-4 h-12 w-12 rounded-full bg-blue-900/10 text-blue-900 flex items-center justify-center">
+                        <i class="fas fa-helmet-safety"></i>
+                    </div>
+                    <h4 class="text-4xl font-black text-blue-900">30</h4>
+                    <p class="text-sm text-slate-500 mt-2">Major Projects Completed</p>
+                </div>
+
+                <div class="bg-white/90 backdrop-blur p-8 text-center shadow-xl border border-slate-100">
+                    <div class="mx-auto mb-4 h-12 w-12 rounded-full bg-orange-500/10 text-orange-500 flex items-center justify-center">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h4 class="text-4xl font-black text-orange-500">15</h4>
+                    <p class="text-sm text-slate-500 mt-2">Additional Projects Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="bg-slate-50 py-10 relative overflow-hidden">
+        <div class="absolute -bottom-16 -right-16 h-56 w-56 rounded-full bg-orange-300/50 blur-3xl"></div>
+        <div class="absolute -top-16 -left-16 h-56 w-56 rounded-full bg-blue-300/50 blur-3xl"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+                <div class="text-center w-full">
+                    <h2 class="text-orange-600 font-bold uppercase tracking-widest text-sm mb-4">Project History</h2>
+                    <h3 class="text-3xl md:text-4xl font-black text-blue-900">Delivering Excellence Since 2025</h3>
+
+                </div>
+            </div>
+
+           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4">
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border border-slate-200 overflow-hidden">
+                    <img src="projects/creane.jpg" alt="Project 1" class="w-full h-full object-cover"> 
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border border-slate-200 overflow-hidden">
+                    <img src="projects/ff.jpg" alt="Project 2" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border border-slate-200 overflow-hidden">
+                    <img src="projects/Fine-Builders - Brochure Image.png" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+                
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/Fine-Builders - Brochure Image 2.jpg" alt="Project 4" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/guam.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/hhh.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/hvac.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/marine.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+                <div class="h-40 sm:h-48 bg-slate-200 rounded-lg border bordSer-slate-200 overflow-hidden">
+                    <img src="projects/piping.jpg" alt="Project 3" class="w-full h-full object-cover">  
+                </div>
+
+            </div>
+
+                <div class="col-span-full flex justify-center mt-6">
+                    <a href="my_projects.html" class="bg-blue-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors">View All Projects</a>
+                </div>
+            </div>
+
+            <!-- Partnerships
+            <div class="mt-20 border-t border-slate-200 pt-12">
+                <p class="text-center text-slate-400 uppercase text-xs font-bold tracking-[0.3em] mb-8">Strategic Partnerships</p>
+                <div class="flex flex-wrap justify-center gap-12 grayscale opacity-60">
+                    <span class="text-2xl font-black text-slate-800 italic">FINE BUILDERS INC.</span>
+                    <span class="text-2xl font-black text-slate-800">RNV CONSTRUCTION</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-950 text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+                <div class="lg:col-span-1">
+                    <img src="CO_LOGO_White.png" alt="CO Enterprises logo" class="h-28 w-auto" loading="lazy">
+                    <p class="mt-3 text-slate-400 text-sm leading-relaxed">
+                        Leading general contractor specializing in commercial, industrial, and residential sectors. Built on 30 years of professional industry leadership.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="text-lg font-bold mb-6 border-b border-white/10 pb-2">Quick Links</h5>
+                    <ul class="text-slate-400 text-sm space-y-3">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="carlos.html" class="hover:text-white">Our Company</a></li>
+                        <li><a href="my_projects.html" class="hover:text-white">Project History</a></li>
+                        <li><a href="contacts.html" class="hover:text-white">Request a Quote</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-bold mb-6 border-b border-white/10 pb-2">Contact us</h5>
+                    <!-- <p class="text-slate-400 text-sm mb-4">Contact us for project consultations and bidding opportunities.</p> -->
+
+                    <ul class="text-slate-400 text-sm space-y-3">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-envelope text-orange-500"></i>
+                            <a href="mailto:coenterprises.gu@gmail.com" class="text-orange-500 font-bold hover:underline">coenterprises.gu@gmail.com</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone text-orange-500"></i>
+                            <a href="tel:671 922 8508" class="hover:underline">671 922 8508</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-mobile text-orange-500"></i>
+                            <a href="tel:671 898 6682" class="hover:underline">671 898 6682</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-map-marker-alt text-orange-500"></i>
+                            <span>133 Pick A Nail Rd., Tamuning, 96913 Guam</span>
+                        </li>
+                        <li class="flex items-center gap-3 ">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.7152860327606!2d144.7862165!3d13.491633600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x671f82a095fae0e9%3A0xb37b21b569190b6b!2s133%20Pick%20A%20Nail%20Rd%2C%20Tamuning%2C%2096913%2C%20Guam!5e0!3m2!1sen!2sph!4v1778727410439!5m2!1sen!2sph" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-[10px] uppercase tracking-widest">
+                <p>&copy; 2026 CO Enterprises. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <!-- <a href="#" class="hover:text-white">Privacy Policy</a> -->
+                    <!-- <a href="#" class="hover:text-white">Terms of Service</a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="co_enterprises_web_script.js"></script>
+</body>
+</html>    
